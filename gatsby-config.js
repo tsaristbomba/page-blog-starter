@@ -1,18 +1,94 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
-    },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    title: `Luden`,
+    seoTitle: `Luden is a great theme`,
+    description: `Luden is a great theme`,
+    author: `@tsaristbomba`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    image: "/june.png",
+    logo: "logo.svg",
+    form: false,
+    svgImgs: false,
+    attach: false,
+    anchorLinks: false,
+    scrollBtn: true,
+    icons: true,
+    wave: true,
+    triangle: false,
+    curve: false,
+    tilt: false,
+    themes: {
+      light: {
+        title: "light",
+        colors: {
+          primary: "#FFA729", // Brand color
+          primaryDark: "#B36900",
+          primaryLight: "#D8D6D6", // H
+          secondary: "#B36900",
+          secondaryLight: "#FFA729",
+          neutralDark: "#2d2d2d", // Text color
+          neutralMedium: "#D8D6D6", // Heavier medium (gotta be gray)
+          neutralLight: "#fff", // bg color
+        },
+      },
+      dark: {
+        title: "dark",
+        colors: {
+          primary: "#B36900", // Brand color
+          primaryDark: "#FFA729",
+          primaryLight: "#484848", // H
+          secondary: "#FFA729",
+          secondaryLight: "#B36900",
+          neutralDark: "#fff", // Text color
+          neutralMedium: "#777777", // Heavier medium (gotta be gray)
+          neutralLight: "#2d2d2d", // bg color
+        },
+      },
+    },
+    footerLinks: [
+      {
+        title: "Learn About Us",
+        links: [
+          { title: "About", slug: "#About" },
+          {
+            title: "Services",
+            slug: "#Services",
+          },
+          { title: "Team", slug: "#Team" },
+          { title: "Contact", slug: "#Contact" },
+          { title: "Plans", slug: "#Plans" },
+          { title: "Newsletter", slug: "#Banner" },
+        ],
+      },
+      {
+        title: "Legal",
+        links: [
+          { title: "Terms & Conditions", slug: "terms-conditions" },
+          { title: "Privacy Policy", slug: "privacy-policy" },
+        ],
+      },
+    ],
+    navLinks: [
+      {
+        name: "Blog",
+        slug: "blog",
+      },
+    ],
+    socials: [
+      { title: "INSTAGRAM", link: "https://instagram.com/archilect" },
+      { title: "YOUTUBE", link: "https://youtube.com/pewdiepie" },
+      { title: "TWITTER", link: "https://twitter.com/naval" },
+      { title: "WHATSAPP", link: "https://twitter.com/naval" },
+    ],
     social: {
-      twitter: `kylemathews`,
+      github: `tsaristbomba`,
+      twitter: ``,
     },
   },
   plugins: [
     `gatsby-plugin-image`,
+    `@teefe/gatsby-theme-luden`,
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
