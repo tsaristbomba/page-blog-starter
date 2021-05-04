@@ -30,6 +30,9 @@ const BlogPostTemplate = ({ data, location }) => {
         //   anchor={hero.anchor}
       />
       <BlogLayout shadow="true">
+        <small style={{ fontWeight: "400" }}>
+          <Link to="/blog">← Todos os Blogs</Link>
+        </small>
         <article
           className="blog-post"
           itemScope
@@ -96,7 +99,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD/MM/YYYY", locale: "pt-br")
         description
       }
     }
