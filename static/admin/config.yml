@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: tsaristbomba/page-blog-starter
   branch: master
 
@@ -14,12 +14,7 @@ collections:
     create: true
     fields:
       - { name: date, label: Data, widget: date }
-      - {
-          name: thumbnail,
-          label: Imagem Thumbnail,
-          widget: image,
-          required: false,
-        }
+      - { name: image, label: Imagem Thumbnail, widget: image, required: false }
       - { name: title, label: Título }
       - { name: description, label: Descrição }
       - { name: body, label: Texto, widget: markdown }

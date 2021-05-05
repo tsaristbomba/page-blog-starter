@@ -1846,10 +1846,10 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@teefe/gatsby-theme-luden@^1.0.941":
-  version "1.0.941"
-  resolved "https://registry.yarnpkg.com/@teefe/gatsby-theme-luden/-/gatsby-theme-luden-1.0.941.tgz#058c18be96b3c82f10503f776a0667b5e8c28552"
-  integrity sha512-401v3C8xPkcbIi3zdSaxJGNOPX46iUzfnfGWi3qOroIheKE2MP36luF0SKYiftoHU3C7lcQJjRxhyUmA+p6PXQ==
+"@teefe/gatsby-theme-luden@^1.0.942":
+  version "1.0.942"
+  resolved "https://registry.yarnpkg.com/@teefe/gatsby-theme-luden/-/gatsby-theme-luden-1.0.942.tgz#f4071a5075cee5f2fb9f329947b3e5295015e385"
+  integrity sha512-bVqoYr1TbZhtSaLrUTCrhpHgJDhDBtl83p5pb1/uQdgrpTkwYmq3j4wHafh4Imh84553tsgnZJ6pIi+w1ibA6w==
   dependencies:
     babel-plugin-styled-components "^1.12.0"
     gatsby-background-image "^1.5.0"
