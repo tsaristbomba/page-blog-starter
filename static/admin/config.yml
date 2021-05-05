@@ -1,10 +1,11 @@
 backend:
   name: github
   repo: tsaristbomba/page-blog-starter
+  branch: master
 
 media_folder: content/assets
 public_folder: ../assets
-locale: "pt-br"
+locale: "pt"
 
 collections:
   - name: blog

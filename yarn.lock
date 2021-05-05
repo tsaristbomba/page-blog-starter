@@ -1846,10 +1846,10 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@teefe/gatsby-theme-luden@^1.0.93":
-  version "1.0.93"
-  resolved "https://registry.yarnpkg.com/@teefe/gatsby-theme-luden/-/gatsby-theme-luden-1.0.93.tgz#40a3d20e663915018e3162dcef37c205d8bc744d"
-  integrity sha512-mNjwFNsqiRItascAIrjITqAOf87dhv9rdG18RNPpEfvL84nIzy31mSz9PHqp4Y+hyOrkOPkDhAyjTHSACSmbKA==
+"@teefe/gatsby-theme-luden@^1.0.941":
+  version "1.0.941"
+  resolved "https://registry.yarnpkg.com/@teefe/gatsby-theme-luden/-/gatsby-theme-luden-1.0.941.tgz#058c18be96b3c82f10503f776a0667b5e8c28552"
+  integrity sha512-401v3C8xPkcbIi3zdSaxJGNOPX46iUzfnfGWi3qOroIheKE2MP36luF0SKYiftoHU3C7lcQJjRxhyUmA+p6PXQ==
   dependencies:
     babel-plugin-styled-components "^1.12.0"
     gatsby-background-image "^1.5.0"
@@ -1865,6 +1865,7 @@
     gatsby-source-filesystem "^3.1.0"
     gatsby-transformer-sharp "^3.1.0"
     gbimage-bridge "^0.1.1"
+    lodash "^4.17.21"
     react-elastic-carousel "^0.11.2"
     react-faq-component "^1.3.0"
     react-google-maps "^9.4.5"
@@ -10647,6 +10648,11 @@ netlify-cms-locales@^1.30.0:
   version "1.30.0"
   resolved "https://registry.yarnpkg.com/netlify-cms-locales/-/netlify-cms-locales-1.30.0.tgz#cd015659c5e0286d0879af9e91dbdf4b311596b6"
   integrity sha512-tr/AicVjNjJB4arrVb2cJZXXIHRhYV/I7ZZVTmykJ9r6Cdsdqc9tsqPd34j127TyEBHUuo0g5EaXpFyCZYxQKQ==
+
+netlify-cms-locales@^1.30.1:
+  version "1.30.1"
+  resolved "https://registry.yarnpkg.com/netlify-cms-locales/-/netlify-cms-locales-1.30.1.tgz#28063d71bddd4f56c77211539069258f06826298"
+  integrity sha512-AUFrTIj+5zPApVJD8FZFYpKkDsaqM3w1q5GMriU3on4I7U0e8UxYv16bunJrzMXNtTfoIm+GgVZtrQwM5/lCAw==
 
 netlify-cms-ui-default@^2.12.2:
   version "2.12.2"
