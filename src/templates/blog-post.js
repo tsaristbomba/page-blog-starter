@@ -5,11 +5,20 @@ import { Hero, Layout, Seo } from "@teefe/gatsby-theme-luden"
 import BlogLayout from "../components/blogLayout"
 
 const BlogPostTemplate = ({ data, location }) => {
+  const [queryImg, setQuery] = React.useState()
+
   const post = data.markdownRemark
   // const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
 
-  console.log(post.frontmatter.image)
+  React.useEffect(() => {
+    const postImage = post.frontmatter.image
+
+    const newImage = postImage.substr(13)
+
+    setQuery(newImage)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   return (
     <Layout light sticky rounded="true" progress noicon>
@@ -21,7 +30,7 @@ const BlogPostTemplate = ({ data, location }) => {
         data={{
           //   topTitle: "Its Easy!",
           title: post.frontmatter.title,
-          image: "blog",
+          image: queryImg,
         }}
         // full={!svgImgs}
         bg
