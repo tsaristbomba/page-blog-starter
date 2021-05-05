@@ -89,6 +89,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `@teefe/gatsby-theme-luden`,
     `gatsby-plugin-netlify-cms`,
+    "gatsby-plugin-netlify-cache",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
