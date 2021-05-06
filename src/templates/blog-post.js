@@ -14,7 +14,7 @@ const BlogPostTemplate = ({ data, location }) => {
   React.useEffect(() => {
     const postImage = post.frontmatter.image
 
-    const newImage = postImage ? postImage.substr(13) : "blog"
+    const newImage = postImage !== null ? postImage.substr(13) : "blog"
 
     setQuery(newImage)
     // eslint-disable-next-line react-hooks/exhaustive-deps
