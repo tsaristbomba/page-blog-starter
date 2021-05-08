@@ -1789,6 +1789,29 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.12.tgz#431ec342a7195622f86688bbda82e3166ce8cb28"
   integrity sha512-6RglhutqrGFMO1MNUXp95RBuYIuc8wTnMAV5MUhLmjTOy78ncwOw7RgeQ/HeymkKXRhZd0s2DNrM1rL7unk3MQ==
 
+"@prefresh/babel-plugin@^0.4.0":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@prefresh/babel-plugin/-/babel-plugin-0.4.1.tgz#c4e843f7c5e56c15f1185979a8559c893ffb4a35"
+  integrity sha512-gj3ekiYtHlZNz0zFI1z6a9mcYX80Qacw84+2++7V1skvO7kQoV2ux56r8bJkTBbKMVxwAgaYrxxIdUCYlclE7Q==
+
+"@prefresh/core@^0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@prefresh/core/-/core-0.8.1.tgz#d4f15d9e3ee9c16bf420405e2b422774e807a594"
+  integrity sha512-woho+Ja8w3pxnZwq68MnWzH9ffdidrpJsV6PDTNIsJOpsLYmfCNxqxGsxIqYw40d1yjg4h6HFGbb6Y9lhyTPNA==
+
+"@prefresh/utils@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@prefresh/utils/-/utils-0.3.1.tgz#f9e1a5e1fa4bc02989980733950e60520f0f9869"
+  integrity sha512-9kLzPWN4teeiKuc+Rle3SF/hyx5lzo35X4rHr+kQXnJT+BaEb1ymDWIHGkv85xjnw8+l6I1r1H7JB4BHOMJfmg==
+
+"@prefresh/webpack@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@prefresh/webpack/-/webpack-1.1.0.tgz#a36fd072ef1d5cd88ced8df89d7ae62bdbddf71b"
+  integrity sha512-a3JG2maH3bacDobb4WywVTuqvAyBxJ7dRNSG2Ywv1AytAdgpgNZKJpR4xUTzPTwPGpRkfNOOf4mODqoOZ7W0Sw==
+  dependencies:
+    "@prefresh/core" "^0.8.1"
+    "@prefresh/utils" "^0.3.1"
+
 "@react-icons/all-files@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@react-icons/all-files/-/all-files-4.1.0.tgz#477284873a0821928224b6fc84c62d2534d6650b"
@@ -1856,10 +1879,10 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@teefe/gatsby-theme-luden@^1.1.21":
-  version "1.1.21"
-  resolved "https://registry.yarnpkg.com/@teefe/gatsby-theme-luden/-/gatsby-theme-luden-1.1.21.tgz#05e52529aa401923c0f3acafd17515344055fa7d"
-  integrity sha512-T2yRZ7TxZP2LwwHMyQpFJwvcjeX2byEOWEIvABDIMhwD/NQnf7l07gh7tq9icTC04ApkBb1ph4AtuYfrCRzbIw==
+"@teefe/gatsby-theme-luden@^1.1.23":
+  version "1.1.23"
+  resolved "https://registry.yarnpkg.com/@teefe/gatsby-theme-luden/-/gatsby-theme-luden-1.1.23.tgz#ee475aad54d1d0c60317dc4a4750315d79201ffd"
+  integrity sha512-0T+G1cTurKj12wPIJg4fn1kSWz+4ru1ldVB9vwC6OEFHL3ifTUl7af4rE3HyASQ4bMLNWaJBTyhLBvuezBPTTg==
   dependencies:
     "@react-icons/all-files" "^4.1.0"
     babel-plugin-styled-components "^1.12.0"
@@ -6723,6 +6746,14 @@ gatsby-plugin-page-creator@^3.5.0-next.0:
     gatsby-telemetry "^2.5.0-next.0"
     globby "^11.0.3"
     lodash "^4.17.21"
+
+gatsby-plugin-preact@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-preact/-/gatsby-plugin-preact-5.4.0.tgz#79059b62a5ae04eb5d4984b4b59e8f27beb603ae"
+  integrity sha512-urmwPwohs+wv5kHP/B0JB1UBNSinajPyoiIEjoPFNY18lsidftca7LwnM+yvUvXcBfOCshmUky6kIrei9zTBtw==
+  dependencies:
+    "@prefresh/babel-plugin" "^0.4.0"
+    "@prefresh/webpack" "^1.1.0"
 
 gatsby-plugin-react-helmet@^4.4.0:
   version "4.4.0"
@@ -12254,6 +12285,18 @@ potrace@^2.1.8:
   dependencies:
     jimp "^0.14.0"
 
+preact-render-to-string@^5.1.19:
+  version "5.1.19"
+  resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-5.1.19.tgz#ffae7c3bd1680be5ecf5991d41fe3023b3051e0e"
+  integrity sha512-bj8sn/oytIKO6RtOGSS/1+5CrQyRSC99eLUnEVbqUa6MzJX5dYh7wu9bmT0d6lm/Vea21k9KhCQwvr2sYN3rrQ==
+  dependencies:
+    pretty-format "^3.8.0"
+
+preact@^10.5.13:
+  version "10.5.13"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.5.13.tgz#85f6c9197ecd736ce8e3bec044d08fd1330fa019"
+  integrity sha512-q/vlKIGNwzTLu+jCcvywgGrt+H/1P/oIRSD6mV4ln3hmlC+Aa34C7yfPI4+5bzW8pONyVXYS7SvXosy2dKKtWQ==
+
 prebuild-install@^6.1.1:
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/prebuild-install/-/prebuild-install-6.1.2.tgz#6ce5fc5978feba5d3cbffedca0682b136a0b5bff"
@@ -12316,6 +12359,11 @@ pretty-format@^25.5.0:
     ansi-regex "^5.0.0"
     ansi-styles "^4.0.0"
     react-is "^16.12.0"
+
+pretty-format@^3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-3.8.0.tgz#bfbed56d5e9a776645f4b1ff7aa1a3ac4fa3c385"
+  integrity sha1-v77VbV6ad2ZF9LH/eqGjrE+jw4U=
 
 prismjs@^1.23.0:
   version "1.23.0"
