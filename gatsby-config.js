@@ -89,6 +89,12 @@ module.exports = {
     `gatsby-plugin-image`,
     `@teefe/gatsby-theme-luden`,
     `gatsby-plugin-netlify-cms`,
+    {
+      resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+      options: {
+        devMode: true,
+      },
+    },
     "gatsby-plugin-netlify-cache",
     {
       resolve: `gatsby-source-filesystem`,

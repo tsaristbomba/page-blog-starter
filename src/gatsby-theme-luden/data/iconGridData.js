@@ -1,4 +1,4 @@
-import { RiBankFill } from "react-icons/ri";
+// import { RiBankFill } from "@react-icons/all-files/ri/RiBankFill";
 
 const data = {
   anchor: "icon-grid",
@@ -6,24 +6,24 @@ const data = {
   small: "yes",
   items: [
     {
-      icon: RiBankFill,
+      icon: "RiBankFill",
       title: "Clean Design",
       description:
         "Professionally repurpose premium rather than magnetic bandwidth.",
     },
     {
-      icon: RiBankFill,
+      icon: "RiBankFill",
       title: "Premium Resources",
       description:
         "Professionally repurpose premium rather than magnetic bandwidth.",
     },
     {
-      icon: RiBankFill,
+      icon: "RiBankFill",
       title: "Responsive Layout",
       description:
         "Professionally repurpose premium rather than magnetic bandwidth.",
     },
   ],
-};
+}
 
-export default data;
+export default data
