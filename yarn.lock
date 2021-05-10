@@ -1879,10 +1879,10 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@teefe/gatsby-theme-luden@^1.1.251":
-  version "1.1.251"
-  resolved "https://registry.yarnpkg.com/@teefe/gatsby-theme-luden/-/gatsby-theme-luden-1.1.251.tgz#fa59e4e3be8f8eac666d0a1d94c0f397964720b3"
-  integrity sha512-XTqtWwtWsHq/rUWWI3q3o4n6DWGyFTXwylIb4M2JfVlBhvAtTx3KIy/QybaZ8myAb+MRiRk1+37t+cTe3KTpOA==
+"@teefe/gatsby-theme-luden@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@teefe/gatsby-theme-luden/-/gatsby-theme-luden-1.1.4.tgz#eccc0a871817058a37bc6b7a03abe4e8b8a4ca8e"
+  integrity sha512-XmDIFCWn4s6/z/J3MXSE1L4Jo5Nez2sr8b8+oRUAZVGnR4NtGqEQfCPcBlI7pzWzB2IqNwBzdqpdAX/TCVjwJQ==
   dependencies:
     "@react-icons/all-files" "^4.1.0"
     babel-plugin-styled-components "^1.12.0"
@@ -16199,7 +16199,7 @@ webpack-virtual-modules@^0.3.2:
   dependencies:
     debug "^3.0.0"
 
-webpack@^5.23.00, webpack@^5.35.0:
+webpack@^5.23.00, webpack@^5.35.0, webpack@^5.36.2:
   version "5.36.2"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.36.2.tgz#6ef1fb2453ad52faa61e78d486d353d07cca8a0f"
   integrity sha512-XJumVnnGoH2dV+Pk1VwgY4YT6AiMKpVoudUFCNOXMIVrEKPUgEwdIfWPjIuGLESAiS8EdIHX5+TiJz/5JccmRg==
