@@ -146,8 +146,6 @@ const Home = () => {
           triangle={triangle}
         />
       )}
-      {/* <AltMap data={altMap} side /> */}
-      {/* <Map /> */}
       {form ? (
         <AltContact
           data={contact}
