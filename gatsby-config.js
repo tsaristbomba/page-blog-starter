@@ -85,10 +85,20 @@ module.exports = {
       twitter: ``,
     },
   },
+  flags: {
+    PARALLEL_SOURCING: true,
+  },
   plugins: [
     `gatsby-plugin-image`,
     `@teefe/gatsby-theme-luden`,
-    `gatsby-plugin-netlify-cms`,
+    // `gatsby-plugin-netlify-cms`,
+    "gatsby-plugin-loadable-components-ssr",
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+        enableIdentityWidget: true,
+      },
+    },
     `gatsby-plugin-perf-budgets`,
     `gatsby-plugin-preact`,
     {
@@ -97,7 +107,6 @@ module.exports = {
         devMode: true,
       },
     },
-    "gatsby-plugin-netlify-cache",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -215,7 +224,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
