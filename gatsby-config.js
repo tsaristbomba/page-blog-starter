@@ -92,12 +92,12 @@ module.exports = {
     `gatsby-plugin-image`,
     `@teefe/gatsby-theme-luden`,
     // `gatsby-plugin-netlify-cms`,
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-        enableIdentityWidget: true,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-netlify-cms`,
+    //   options: {
+    //     enableIdentityWidget: true,
+    //   },
+    // },
     `gatsby-plugin-perf-budgets`,
     `gatsby-plugin-preact`,
     {
